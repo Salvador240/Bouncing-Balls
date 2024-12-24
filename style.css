@@ -1,0 +1,40 @@
+/* Reset margin and padding for the body */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set font family and height for the html element */
+html {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+/* Set overflow and height for the body */
+body {
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34; /* Modern dark background color */
+  color: #61dafb; /* Modern light blue color for text */
+}
+
+/* Style for the heading */
+h1 {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: 20px;
+  right: 20px;
+  color: #61dafb; /* Modern light blue color for text */
+  text-shadow: 0 0 4px #282c34; /* Shadow effect for text */
+}
+
+/* Style for the canvas element */
+canvas {
+  border: 2px solid #61dafb; /* Border color for the canvas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect for the canvas */
+}
